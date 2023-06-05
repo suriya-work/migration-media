@@ -1,0 +1,69 @@
+/* IRANSANS */
+
+@font-face {
+    font-family: 'IRANSans-Bold';
+    src: url("../fonts/IRANSans-Bold.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'IRANSans-Light';
+    src: url("../fonts/IRANSans-Light.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'IRANSans-Medium';
+    src: url("../fonts/IRANSans-Medium.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'IRANSans-UltraLight';
+    src: url("../fonts/IRANSans-UltraLight.ttf") format("ttf");
+}
+
+/* IRANYEKAN */
+
+@font-face {
+    font-family: 'IRANYekan-Black';
+    src: url("../fonts/IRANYekan-Black.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'IRANYekan-Bold';
+    src: url("../fonts/IRANYekan-Bold.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'IRANYekan-ExtraBlack';
+    src: url("../fonts/IRANYekan-ExtraBlack.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'IRANYekan-ExtraBold';
+    src: url("../fonts/IRANYekan-ExtraBold.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'IRANYekan-Light';
+    src: url("../fonts/IRANYekan-Light.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'IRANYekan-Medium';
+    src: url("../fonts/IRANYekan-Medium.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'IRANYekan-Thin';
+    src: url("../fonts/IRANYekan-Thin.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'IRANYekan';
+    src: url("../fonts/IRANYekan.ttf");
+}
+
+/* YEKAN BAKH */
+@font-face {
+    font-family: 'YEKAN BAKH EN 04 REGULAR (1)';
+    src: url("../fonts/YEKAN BAKH EN 04 REGULAR (1)") format('TTF');
+}
