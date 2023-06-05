@@ -1,0 +1,121 @@
+
+body {
+    background-color: #f5f5f5;
+    font-family: IRANYekan;
+}
+
+.container {
+    width: 649px;
+    height: 755px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 4rem;
+    background-color: #FCFEFF;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.media-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.media-logo h3 {
+    color: #0878AF;
+    margin: 1rem .5rem;
+
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.section p {
+    color: #2F3030;
+}
+
+.section span {
+    color: #0878AF;
+    font-weight: bold;
+    margin: 0 .25rem;
+}
+
+.section-google img {
+    width: 30px;
+    height: 30px;
+
+}
+
+.section-google button {
+    width: 530px;
+    height: 64px;
+    border-radius: 10px;
+    border: 1px solid #2F3030;
+    cursor: pointer;
+}
+
+.section-google button span {
+    font-size: 20px;
+    color: #2F3030;
+    margin: 0 .5rem;
+
+}
+
+
+.text {
+    padding-top: 2rem;
+    border-bottom: 1px solid #7e8181;
+    width: 530px;
+    margin: auto;
+}
+
+.form {
+    margin: 2.5rem;
+}
+
+.form input {
+    width: 530px;
+    height: 64px;
+    border-radius: 10px;
+    border: none;
+    background-color: #F8F8F8;
+    margin: 1rem;
+}
+
+.form input::placeholder {
+    color: #2F3030;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.form button {
+    width: 530px;
+    height: 64px;
+    color: #ffff;
+    background-color: #0878AF;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: .75rem;
+}
+
+/* MEDIA  */
+@media (max-width:600px) {
+  .container {
+    box-shadow: none;
+    border-radius: none;
+
+  }
+}
+
+@media (max-width:900px) {
+    .container {
+      box-shadow: none;
+      border-radius: none;
+    }
+  }
