@@ -12,6 +12,7 @@ body {
 /* styles Header */
 
 .header {
+    width: 1290px;
     display: flex;
     padding: 1.5rem 7rem;
     align-items: center;
@@ -69,16 +70,17 @@ body {
 
 }
 
-button {
+.btn-nav button {
     width: 145px;
     height: 60px;
     background-color: #0878AF;
     border: none;
     border-radius: 10px;
     margin-top: .25rem;
+    cursor: pointer;
 }
 
-button a {
+.btn-nav button a {
     color: #ffff;
     font-size: 22px;
     font-weight: bold;
@@ -88,6 +90,66 @@ button a {
 
 .menu img {
     display: none;
+}
+
+/* BANNER SITE */
+
+
+.aside {
+    padding-right: 6rem;
+}
+
+.aside h6 {
+    color: #1a1b1b;
+    font-size: 16px;
+}
+
+.aside h1 {
+    color: #0878AF;
+}
+
+.aside h2 {
+    color: #000;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.aside p {
+    color: #1a1b1b;
+    padding: 1.5rem 0 4rem;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.aside button {
+    background-color: #0878AF;
+    width: 237px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.aside button a {
+    color: #ffff;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container-banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-banner {
+    padding-left: 7rem;
+}
+
+.section-banner img {
+    width: 506px;
+    height: 533px;
 }
 
 /* Media */
@@ -109,7 +171,7 @@ button a {
     .menu {
         position: absolute;
         top: 20px;
-        right: 60% !important;
+        right: 30%;
     }
 
     .menu img {
@@ -118,6 +180,11 @@ button a {
         height: 30px;
         background-color: #EEF1F2;
         border-radius: 10px;
+    }
+
+    .aside {
+        align-items: center;
+        margin: auto;
     }
 }
 
@@ -128,13 +195,13 @@ button a {
         padding: 1rem .5rem;
     }
 
-    .logo {
+    /* .logo {
         width: 40px;
         height: 40px;
-    }
+    } */
 
     .header h3 {
-        margin: .5rem .5rem;
+        margin: 1.25rem 1rem;
     }
 
     .nav-ul {
@@ -144,7 +211,7 @@ button a {
     .menu {
         position: absolute;
         top: 20px;
-        right: 70%;
+        /* right: 100% !important; */
     }
 
     .menu img {
@@ -155,6 +222,18 @@ button a {
         background-color: #EEF1F2;
         border-radius: 10px;
     }
+
+    /* BANNER */
+    .container-banner {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        /* justify-content: center; */
+        /* text-align: center; */
+        display: none;
+
+    }
+
 }
 
 /* media 1200px */
@@ -164,10 +243,10 @@ button a {
         padding: 1rem .5rem;
     }
 
-    .logo {
-        width: 40px;
-        height: 40px;
-    }
+    /* .logo {
+        width: 50px;
+        height: 50px;
+    } */
 
     .header h3 {
         margin: .5rem .5rem;
@@ -180,7 +259,7 @@ button a {
     .menu {
         position: absolute;
         top: 20px;
-        right: 80%;
+        right: 130%;
     }
 
     .menu img {
